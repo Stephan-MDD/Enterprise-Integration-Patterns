@@ -11,7 +11,7 @@ _System Integration, fall 2020_
 Author  
 **Stephan Djurhuus**
   
-![cover image](/assets/cover.png?0.2580376098505439 )  
+![cover image](/assets/cover.png?0.7767244196703609 )  
   
 ##  Content
   
@@ -93,8 +93,7 @@ A set of coordinated Message Endpoints that enable the application to send and r
 ####  Channels
   
   
-Logical addresses in the messaging system.
-  
+Logical addresses in the messaging system.  
 How they’re actually implemented depends on the messaging system product and its implementation.
   
 Examples:
@@ -111,7 +110,7 @@ Examples:
 -   Publisher and Subscriber
 -   Requester and Provider
   
-> When dealing with Web services, the application that sends a message to the service provider is often referred to as the consumer of the service even though it sends the request message. We can think of it in such a way that the consumer sends a message to the provider and then consumes the response.
+> "When dealing with Web services, the application that sends a message to the service provider is often referred to as the consumer of the service even though it sends the request message. We can think of it in such a way that the consumer sends a message to the provider and then consumes the response."
   
 ####  Channel Types
   
