@@ -11,7 +11,7 @@ _System Integration, fall 2020_
 Author  
 **Stephan Djurhuus**
   
-![cover image](/assets/cover.png?0.7767244196703609 )  
+![cover image](/assets/cover.png?0.33176233979858294 )  
   
 ##  Content
   
@@ -31,6 +31,10 @@ Author
     - [Channel Types](/#channel-types )
   - [Massage](/#massage )
   - [Pipes & Filters](/#pipes-filters )
+    - [Pipe](/#pipe )
+    - [Filter](/#filter )
+    - [Pipeline Processing](/#pipeline-processing )
+    - [Parallel Processing](/#parallel-processing )
   - [Message Router](/#message-router )
   - [Message Translator](/#message-translator )
   - [Message Endpoint](/#message-endpoint )
@@ -128,7 +132,39 @@ Examples:
 ###  Pipes & Filters
   
   
-> on its way
+![](/assets/pipes-filters.png?0.5033187829208772 )  
+  
+> The Pipes and Filters style uses abstract pipes to decouple components from each other. The pipe allows one component to send a message into the pipe so that it can be consumed later by another process that is unknown to the component... <br><br>This affords us the flexibility to move a processing step to a different machine for dependency, maintenance, or performance reasons.
+  
+####  Pipe
+  
+  
+Messaging channels
+  
+####  Filter
+  
+  
+Individual processing steps.
+  
+Examples:
+  
+-   Decrypt encrypted message.
+-   Authenticate content
+-   Avoid duplicates
+  
+####  Pipeline Processing
+  
+  
+For example, after the first message has been decrypted, it can be passed on to the authentication component. At the same time, the next message can already be decrypted.
+  
+![](/assets/processing-pipeline.png?0.7103023984838428 )  
+  
+####  Parallel Processing
+  
+  
+In this scenario, a Point-to-Point Channel with Competing Consumers is needed to guarantee that each message on the channel is consumed by exactly one of N available processors.
+  
+![](/assets/parallel-processing.png?0.7347758933259207 )  
   
   
 ###  Message Router
