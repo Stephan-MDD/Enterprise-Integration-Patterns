@@ -43,6 +43,11 @@ Your task is to read [Chapter 3: Messaging Systems](https://www.enterpriseintegr
 
 @import "sections/Introduction.md"
 @import "sections/MessageChannel.md"
+@import "sections/Message.md"
+@import "sections/PipesFilters.md"
+@import "sections/MessageRouter.md"
+@import "sections/MessageTranslator.md"
+@import "sections/MessageEndpoint.md"
 
 ---
 

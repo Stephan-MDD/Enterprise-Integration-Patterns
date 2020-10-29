@@ -11,7 +11,7 @@ _System Integration, fall 2020_
 Author  
 **Stephan Djurhuus**
   
-![cover image](/assets/cover.png?0.20045233526412765 )  
+![cover image](/assets/cover.png?0.2580376098505439 )  
   
 ##  Content
   
@@ -29,6 +29,11 @@ Author
     - [Channels](/#channels-1 )
     - [Message Channel Application Names](/#message-channel-application-names )
     - [Channel Types](/#channel-types )
+  - [Massage](/#massage )
+  - [Pipes & Filters](/#pipes-filters )
+  - [Message Router](/#message-router )
+  - [Message Translator](/#message-translator )
+  - [Message Endpoint](/#message-endpoint )
   
 ##  Objectives
   
@@ -113,6 +118,36 @@ Examples:
   
 -   Point-to-Point Channels
 -   Publish-Subscribe Channels
+  
+  
+###  Massage
+  
+  
+> on its way
+  
+  
+###  Pipes & Filters
+  
+  
+> on its way
+  
+  
+###  Message Router
+  
+  
+> on its way
+  
+  
+###  Message Translator
+  
+  
+> on its way
+  
+  
+###  Message Endpoint
+  
+  
+> on its way
   
   
 ---
