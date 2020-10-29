@@ -41,9 +41,8 @@ Your task is to read [Chapter 3: Messaging Systems](https://www.enterpriseintegr
 
 ## Essential System Integration Glossary
 
-### Test
-
-lorem ipsum
+@import "sections/Introduction.md"
+@import "sections/MessageChannel.md"
 
 ---
 
